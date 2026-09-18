@@ -8,8 +8,12 @@ def main():
         if command == "add":
            new_task = input("Enter new task: ")
            tasks.append(new_task)
-
-
+        elif command == "Complete":
+            comp_task = input("Which task did you complete?: ")
+            tasks.remove(comp_task)
+        elif command == "exit":
+            print("Bye Bye!")
+            break
 
 
 if __name__ == "__main__":
