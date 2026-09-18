@@ -7,8 +7,8 @@ def main():
     #   print(doctrine[index])
     #   index += 1 update
 
-    for principles in doctrine:
-        print(principles)
+    for i in range(len(doctrine)):
+        print(f"{i+1} {doctrine[i]}")
 
 if __name__ == "__main__":
    main()
