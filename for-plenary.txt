@@ -1,0 +1,10 @@
+1.Write a description for a while loop.
+a while loop repeats a block of code while a condition is true.
+
+2.Write a description for a for loop.
+a for loop repeats a block of code a specific number of times or for each item in a list.
+
+3.Compare a while loop to a for loop
+a while loop is used when you do not know how many times the loop will repeat and the for loop is used when you know how many times you want to repeat the code.
+
+
