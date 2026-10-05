@@ -2,7 +2,7 @@ def main():
 
     def calculate(a, b):
         answer = a + b
-        print(f"{a} + {b} = {answer}")
+        print(f"{a} + {b} = (answer)")
 
     num1 = 10
     num2 = 15
@@ -11,7 +11,7 @@ def main():
 
     def average_value(a, b, c):
         answer = (a + b + c) / 3
-        print(f"The average value is {answer}")
+        print(f"The average value is {round(answer, 1)}")
 
     num3 = float(input("Enter first number: "))
     num4 = float(input("Enter second number: "))
